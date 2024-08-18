@@ -118,7 +118,7 @@ The following instructions explain how to setup the two apps using the Azure Por
   - In the **Name** section, enter a meaningful application name. This name will be displayed to users of the app, for example `Azure Search OpenAI Chat Web App`.
   - Under **Supported account types**, select **Accounts in this organizational directory only**.
   - Under `Redirect URI (optional)` section, select `Single-page application (SPA)` in the combo-box and enter the following redirect URI:
-    - If you are running the sample locally, use `http://localhost:50505/redirect`.
+    - If you are running the sample locally, use `http://localhost:8080/redirect`.
     - If you are running the sample on Azure, use the endpoint provided by `azd up`: `https://<your-endpoint>.azurewebsites.net/redirect`.
     - If you are running the sample from Github Codespaces, use the Codespaces endpoint: `https://<your-codespace>-50505.app.github.dev/`
 - Select **Register** to create the application
