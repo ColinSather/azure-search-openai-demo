@@ -57,7 +57,7 @@ echo ""
 
 cd ../backend
 
-port=50505
+port=8080
 host=localhost
 ../../.venv/bin/python -m quart --app main:app run --port "$port" --host "$host" --reload
 if [ $? -ne 0 ]; then

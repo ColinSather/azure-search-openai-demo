@@ -68,3 +68,6 @@ azd env set OPENAI_BASE_URL http://host.docker.internal:8080/v1
 > [!NOTE]
 > You must set this back to a non-local value ("azure", "azure_custom", or "openai")
 > before running `azd up` or `azd provision`, since the deployed backend can't access your local server.
+
+## Authentication (CS)
+Follow the steps listed [here](https://learn.microsoft.com/en-us/entra/identity-platform/multi-service-web-app-authentication-app-service) then install the Powershell module `Install-Module -Name Az.Accounts -RequiredVersion 2.2.0` must be ran in admin Powershell. Once that is complete run `Connect-AzAccount` in a non admin terminal.
